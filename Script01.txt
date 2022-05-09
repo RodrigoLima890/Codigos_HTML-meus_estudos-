@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu html</title>
+    <style>
+        .formato-imagem{
+            height:350px;
+            width:400px;
+        }
+        .vermelho{
+            font-size: 24px;
+            color: red;
+        }
+        .azul{
+            font-size: 30px;
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Lorem Ipsum</h1>
+    <nav>
+        <ul>
+          <li><a href="#">Página inicial</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <p>Lorem <b>ipsum</b> <i>dolor</i> sit amet consectetur adipisicing elit.
+         Facilis ipsum harum nisi explicabo sunt magnam 
+        <a href="https://en.wiktionary.org/wiki/nesciunt">nesciunt</a> 
+         quia,nemo impedit, fugit officia error recusandae et, non blanditiis
+          libero quisquam cum aliquam.
+    </p>      
+    <p><span class="vermelho">Lorem ipsum</span> dolor sit <del>amet</del>, <ins>armer</ins> consectetur adipisicing elit.
+         Est voluptas facilis omnis error animi <small>laudantium </small>!<br> <span class="vermelho">Rerum natus atque enim id, 
+         ut corrupti nam eveniet aliquam!</span> Impedit voluptatem 3<sup>3</sup> = 9 molestiae h<sub>2</sub>o illo!
+    </p>
+        <a href="https://www.amazon.com.br/Vidas-doutrinas-dos-filósofos-ilustres-ebook/dp/B087SM4DWP" target="_blank">
+            <img class="formato-imagem" src="https://m.media-amazon.com/images/I/51gHMJyy+LL.jpg" alt="livro aleatório">
+        </a>
+        <blockquote cite="https://www.significados.com.br/so-sei-que-nada-sei/">so sei que nada sei</blockquote>
+<pre>
+<code>
+    x = 2;
+    y = 3;
+    soma = x + y;
+    if(soma % 2 == 0){
+        print("a soma será PAR");
+    }else{
+        print("a soma será IMPAR");
+    }
+</code>
+</pre>
+<div class="azul">Lorem ipsum vai jogar no Vasco!</div>
+
+</body>
+</html>
